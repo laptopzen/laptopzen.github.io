@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}Laptop Zen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/highlight/syntax.css">
+	<style type="text/css">
+		* {
+			word-wrap: break-word;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		body {
+			padding-top: 70px;
+			padding-bottom: 50px;
+		}
+
+		.navbar-fixed-bottom .btn {
+			width: 100%;
+		}
+
+		.navbar-fixed-bottom .table {
+			margin-bottom: 0;
+		}
+
+		.navbar-fixed-bottom .table,
+		.navbar-fixed-bottom td {
+			border: none !important;
+		}
+
+		.list-postingan,
+		.list-postingan:hover,
+		.list-postingan:active,
+		.list-postingan:focus,
+		.list-postingan:visited {
+			color: #000;
+			text-decoration: none;
+		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.row [.col-*] {
+			display: flex;
+			flex-direction: column;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header"><a href="index.html" class="navbar-brand">Laptop Zen</a></div>
+		</div>
+	</div>
+	<div class="container">
+		{{ content }}
+	</div>
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<table class="table table-bordered">
+				<tbody>
+					<tr>
+						<td><a href="mailto:muhzaini30@gmail.com" class="btn btn-default">Email Me</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

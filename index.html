@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign tulisan = site.posts | sort: 'title' %}
+<div class="row">
+	{% for x in tulisan %}
+		<div class="col-sm-2 col-xs-4">
+			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan">
+				<img src="logo/{{ x.bahasa }}.png" alt="">
+				<p><small>{{ x.title }}</small></p>
+			</a>
+		</div>	
+	{% endfor %}
+</div>
