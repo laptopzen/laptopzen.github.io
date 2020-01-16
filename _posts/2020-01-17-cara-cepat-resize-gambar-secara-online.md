@@ -11,7 +11,7 @@ Terus gimana solusinya? Nah, kita coba pakai fitur Google Image Cache.
 Berikut ini adalah aturannya:
 
 ```
-https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=<< lebar yang diinginkan >>&url=<< link gambar >>
+{% raw %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w={{ lebar yang diinginkan }}&url={{ link gambar }}{% endraw %}
 ```
 
 Contohnya kita ingin membuat gambar yang beralamat di `https://situs.com/gambar.jpg` memiliki lebar 300 px, maka berikut ini adalah link gambarnya:
