@@ -7,7 +7,7 @@ layout: default
 	{% for x in tulisan %}
 		<div class="col-sm-2 col-xs-4">
 			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan">
-				<img src="logo/{{ x.bahasa }}.png" alt="">
+				<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url={{ site.url }}/logo/{{ x.bahasa }}.png" alt="">
 				<p><small>{{ x.title }}</small></p>
 			</a>
 		</div>	
