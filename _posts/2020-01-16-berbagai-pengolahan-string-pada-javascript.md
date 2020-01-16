@@ -26,3 +26,27 @@ _Hasil_
 ```
 Kimi ngiming ipi sih?
 ```
+
+**Huruf besar dan huruf kecil selang-seling**
+
+_Kode_
+
+```javascript
+teks = "Ingin menjadi apa setelah dewasa. Ingin menjadi apa. Tak terbayangkan."
+pecah = teks.split("")
+teks_baru = ""
+for (n in pecah){
+  if (n % 2 == 0){
+    teks_baru += pecah[n].toUpperCase()
+  } else {
+    teks_baru += pecah[n].toLowerCase()
+  }
+}
+console.log(teks_baru)
+```
+
+_Hasil_
+
+```
+InGiN MeNjAdI ApA SeTeLaH DeWaSa. InGiN MeNjAdI ApA. tAk tErBaYaNgKaN.
+```
