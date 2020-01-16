@@ -50,3 +50,17 @@ _Hasil_
 ```
 InGiN MeNjAdI ApA SeTeLaH DeWaSa. InGiN MeNjAdI ApA. tAk tErBaYaNgKaN.
 ```
+
+**Menghapus karakter ketiga dari belakang**
+
+_Kode_
+
+```javascript
+console.log("031".split("").splice(-2, 2).toString().replace(",", ""))
+```
+
+_Hasil_
+
+```
+31
+```
