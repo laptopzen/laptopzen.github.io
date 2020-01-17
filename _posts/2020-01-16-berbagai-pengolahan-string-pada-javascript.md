@@ -53,6 +53,8 @@ InGiN MeNjAdI ApA SeTeLaH DeWaSa. InGiN MeNjAdI ApA. tAk tErBaYaNgKaN.
 
 **Menghapus karakter ketiga dari belakang**
 
+Kode di bawah ini berguna jika kita ingin mendapatkan tanggal sekarang atau bulan sekarang. Misalnya aja, kalau bulan kan rentangnya itu 1-12. Misalnya sekarang bulan Februari, maka akan didapatkan angka `2`. Sedangkan kita ingin angka `02`.
+
 _Kode_
 
 ```javascript
@@ -66,6 +68,8 @@ _Hasil_
 ```
 
 **Cek palindrom**
+
+Palindrom adalah suatu teks yang jika dibalik teksnya, bentuknya tetap sama. Misalnya aja teks `ana`. Jika kita balik, maka tetap menjadi `ana`. Sedangkan contoh teks yang nggak palindrom adalah teks `kucing`. Jika teks `kucing` itu kita balik, maka akan menjadi `gnicuk`. Beda kan?
 
 _Kode_
 
