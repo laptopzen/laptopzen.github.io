@@ -64,3 +64,23 @@ _Hasil_
 ```
 31
 ```
+
+**Cek palindrom**
+
+_Kode_
+
+```javascript
+cek = "atta"
+balik = cek.split("").reverse().join("")
+if (cek.toLowerCase() == balik.toLowerCase()){
+  console.log("palindrom")
+} else {
+  console.log("nggak palindrom")
+}
+```
+
+_Hasil_
+
+```
+palindrom
+```
