@@ -1,12 +1,20 @@
 ---
 layout: default
+halaman: index
 ---
+
+<style>
+  body {
+    margin-bottom: 50px;
+  }
+</style>
+
 
 {% assign tulisan = site.posts | sort: 'title' %}
 <div class="row">
 	{% for x in tulisan %}
 		<div class="col-sm-3 col-xs-6">
-			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan">
+			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan item-cari">
 
 
 <div class="panel panel-default">
@@ -23,4 +31,17 @@ layout: default
 			</a>
 		</div>	
 	{% endfor %}
+</div>
+
+<div class="navbar navbar-fixed-bottom navbar-default">
+  <div class="container">
+<table class="table table-bordered">
+<tr><td>
+    <div class="input-group">
+      <input class="form-control cari">
+      <span class="input-group-addon hapus">&times;</span>
+    </div>
+</td></tr>
+</table>
+  </div>
 </div>

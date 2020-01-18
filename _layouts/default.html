@@ -36,6 +36,14 @@
 			border: none !important;
 		}
 
+.hapus {
+  cursor: pointer;
+}
+
+.sembunyi {
+  display: none;
+}
+
 		.list-postingan,
 		.list-postingan:hover,
 		.list-postingan:active,
@@ -65,5 +73,35 @@
 	<div class="container">
 		{{ content }}
 	</div>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script>
+{% if page.halaman == "index" %}
+		$.expr[':'].contains = $.expr.createPseudo(function(arg){
+			return function(elem){
+				return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0
+			}
+		})
+
+		$('.cari').on('keyup', function(){
+			if ($('.cari').val() != ''){
+				$('.item-cari').addClass('sembunyi')
+				$('.item-cari').each(function(){
+					if ($(this).is(":contains(" + $('.cari').val() + ")")) {
+						$(this).removeClass('sembunyi')
+					}
+				})
+			} else {
+				$('.item-cari').removeClass('sembunyi')
+			}
+		})
+
+		$('.hapus').each(function(){
+			$(this).click(function(){
+				$(this).parent().find('.form-control').val('')
+				$('.item-cari').removeClass('sembunyi')
+			})
+		})
+{% endif %}
+	</script>
 </body>
 </html>
