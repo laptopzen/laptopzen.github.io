@@ -13,8 +13,8 @@ halaman: index
 {% assign tulisan = site.posts | sort: 'title' %}
 <div class="row">
 	{% for x in tulisan %}
-		<div class="col-sm-3 col-xs-6">
-			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan item-cari">
+		<div class="col-sm-3 col-xs-6 item-cari">
+			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan">
 
 
 <div class="panel panel-default">
