@@ -43,7 +43,8 @@
 			border: none !important;
 		}
 
-		.hapus {
+		.hapus,
+		.tombol {
 			cursor: pointer;
 		}
 
@@ -82,33 +83,39 @@
 	</div>
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script>
-{% if page.halaman == "index" %}
-		$.expr[':'].contains = $.expr.createPseudo(function(arg){
-			return function(elem){
-				return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0
-			}
-		})
+		{% if page.halaman == "index" %}
+			$.expr[':'].contains = $.expr.createPseudo(function(arg){
+				return function(elem){
+					return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0
+				}
+			})
 
-		$('.cari').on('keyup', function(){
-			if ($('.cari').val() != ''){
-				$('.item-cari').addClass('sembunyi')
-				$('.item-cari').each(function(){
-					if ($(this).is(":contains(" + $('.cari').val() + ")")) {
-						$(this).removeClass('sembunyi')
-					}
+			$('.cari').on('keyup', function(){
+				if ($('.cari').val() != ''){
+					$('.item-cari').addClass('sembunyi')
+					$('.item-cari').each(function(){
+						if ($(this).is(":contains(" + $('.cari').val() + ")")) {
+							$(this).removeClass('sembunyi')
+						}
+					})
+				} else {
+					$('.item-cari').removeClass('sembunyi')
+				}
+			})
+
+			$('.hapus').each(function(){
+				$(this).click(function(){
+					$(this).parent().find('.form-control').val('')
+					$('.item-cari').removeClass('sembunyi')
 				})
-			} else {
-				$('.item-cari').removeClass('sembunyi')
-			}
-		})
+			})
+		{% endif %}
 
-		$('.hapus').each(function(){
-			$(this).click(function(){
-				$(this).parent().find('.form-control').val('')
-				$('.item-cari').removeClass('sembunyi')
+		$('.tombol').each(function(){
+			$(this).click(function(x){
+				location.href = $(this).attr('data-link')
 			})
 		})
-{% endif %}
 	</script>
 </body>
 </html>
