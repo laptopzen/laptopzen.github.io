@@ -3,18 +3,22 @@ layout: default
 ---
 
 <style type="text/css">
-body {
-  padding-top: 50px;
-}
+	body {
+		padding-top: 50px;
+	}
 
 	.container {
 		max-width: 800px;
 	}
 </style>
 
-<h3>{{ page.title }}</h3>
-<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=200&url=https://laptopzen.github.io/logo/{{ page.bahasa }}.png" class="pull-left logo-konten" alt="">
-{{ content }}
+<div class="isi-postingan">
+
+	<h3>{{ page.title }}</h3>
+	<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=200&url=https://laptopzen.github.io/logo/{{ page.bahasa }}.png" class="pull-left logo-konten" alt="">
+	{{ content }}
+
+</div>
 
 <div id="disqus_thread"></div>
 <script>
