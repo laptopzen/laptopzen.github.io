@@ -38,6 +38,7 @@ Kalau di Twig:
 {% raw %}
 {% for x in data %}
   {{ x.nama }}
+{% endfor %}
 {% endraw %}
 ```
 
