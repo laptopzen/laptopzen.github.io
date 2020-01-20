@@ -71,3 +71,7 @@ Kalau di PHP, nggak ada fitur ini.
 **Menggabungkan Twig dengan PHP**
 
 Nah, untuk menggabungkan Twig dengan PHP, kamu bisa menggunakan [Codeigniter Twig](https://github.com/mzaini30/codeigniter-twig). Petunjuk pemakaiannya ada di repositori tersebut.
+
+Nah, kalau di CI biasanya kan kalau mau memanggil view dengan kode `$this->load->view("admin/beranda", $data);`. Kalau di CI Twig ini beda lagi. Kalau di sini, kita pakai `$this->twig->display("admin/beranda", $data);`.
+
+Nah terus, kalau biasanya di CI kan kita naroh view kita di folder view. Yang ini juga sih. Cuma, dia ekstensinya `.twig`, bukan `.php`. Lalu, kita menggunakan kode-kode Twig di dalamnya.
