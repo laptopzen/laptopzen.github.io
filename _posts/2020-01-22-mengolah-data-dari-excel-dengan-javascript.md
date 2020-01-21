@@ -26,10 +26,10 @@ Untuk Bootstrap, kamu bisa download dari <https://getbootstrap.com/docs/3.3/>. U
 Kemudian, dari `data.xlsx` itu kita salin ke dalam `data.js` dengan ini sebagai berikut:
 
 ```javascript
-data = `Zen	Loa Janan
-Yani	Samarinda
-Anggi	Loa Janan
-Ijul	Loa Janan`
+data = `Zen  Loa Janan
+Yani  Samarinda
+Anggi  Loa Janan
+Ijul  Loa Janan`
 ```
 
 Terlihat kan dari data di atas, bahwa aku copy paste isinya aja. Header tabelnya nggak kuambil. Nah, itu aku kasih nama variabel `data` untuk pemanggilan skripnya nanti. Terus aku pakai [template literal](ada-yang-pernah-pakai-template-literal-0121.html) sehingga bisa untuk menampung string dan enter.
@@ -40,40 +40,40 @@ Lalu, isi dari `index.html` adalah:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Olah Data</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <title>Olah Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
-	<br>
-	<div class="container">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th>Nama</th>
-					<th>Alamat</th>
-				</tr>
-			</thead>
-			<tbody class="isi"></tbody>
-		</table>
-	</div>
-	<script type="text/javascript" src="data.js"></script>
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript">
-		data = data.split(`\n`)
-		for (n in data){
-			data[n] = data[n].split(`\t`)
-		}
-		isi = ``
-		for (x of data){
-			isi += `<tr>
-						<td>${x[0]}</td>
-						<td>${x[1]}</td>
-					</tr>`
-		}
-		$(`.isi`).html(isi)
-	</script>
+  <br>
+  <div class="container">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Alamat</th>
+        </tr>
+      </thead>
+      <tbody class="isi"></tbody>
+    </table>
+  </div>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript">
+    data = data.split(`\n`)
+    for (n in data){
+      data[n] = data[n].split(`\t`)
+    }
+    isi = ``
+    for (x of data){
+      isi += `<tr>
+            <td>${x[0]}</td>
+            <td>${x[1]}</td>
+          </tr>`
+    }
+    $(`.isi`).html(isi)
+  </script>
 </body>
 </html>
 ```
@@ -92,13 +92,13 @@ Tag `<!DOCTYPE html>` digunakan di awal untuk menerangkan bahwa kita menggunakan
 
 ```html
 <table class="table table-bordered">
-	<thead>
-		<tr>
-			<th>Nama</th>
-			<th>Alamat</th>
-		</tr>
-	</thead>
-	<tbody class="isi"></tbody>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>Alamat</th>
+    </tr>
+  </thead>
+  <tbody class="isi"></tbody>
 </table>
 ```
 
@@ -115,16 +115,16 @@ Itu artinya menginclude file `data.js` dan `jquery.min.js`.
 
 ```javascript
 data = [
-	'Zen	Loa Janan',
-	'Yani	Samarinda',
-	'Anggi	Loa Janan',
-	'Ijul	Loa Janan'
+  'Zen  Loa Janan',
+  'Yani  Samarinda',
+  'Anggi  Loa Janan',
+  'Ijul  Loa Janan'
 ]
 ```
 
 ```javascript
 for (n in data){
-	data[n] = data[n].split(`\t`)
+  data[n] = data[n].split(`\t`)
 }
 ```
 
@@ -132,20 +132,20 @@ Akan mengubah data menjadi:
 
 ```javascript
 data = [
-	['Zen', 'Loa Janan'],
-	['Yani', 'Samarinda'],
-	['Anggi', 'Loa Janan'],
-	['Ijul', 'Loa Janan']
+  ['Zen', 'Loa Janan'],
+  ['Yani', 'Samarinda'],
+  ['Anggi', 'Loa Janan'],
+  ['Ijul', 'Loa Janan']
 ]
 ```
 
 ```javascript
 isi = ``
 for (x of data){
-	isi += `<tr>
-				<td>${x[0]}</td>
-				<td>${x[1]}</td>
-			</tr>`
+  isi += `<tr>
+        <td>${x[0]}</td>
+        <td>${x[1]}</td>
+      </tr>`
 }
 $(`.isi`).html(isi)
 ```
