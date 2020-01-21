@@ -143,9 +143,9 @@ data = [
 isi = ``
 for (x of data){
   isi += `<tr>
-        <td>${x[0]}</td>
-        <td>${x[1]}</td>
-      </tr>`
+	        <td>${x[0]}</td>
+	        <td>${x[1]}</td>
+	      </tr>`
 }
 $(`.isi`).html(isi)
 ```
