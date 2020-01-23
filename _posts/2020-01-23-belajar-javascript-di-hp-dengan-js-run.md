@@ -75,4 +75,27 @@ Kondisi itu berarti if else (jika x, jika tidak x). Nah, di atas adalah kode unt
 
 Baru di akhir kita cetak sebut di console.
 
-Hasilnya adalah `lebih atau sama dengan daripada 2`.
+Hasilnya adalah:
+
+```
+lebih atau sama dengan daripada 2
+```
+
+Bisa juga sintaks kondisional seperti ini:
+
+```javascript
+angka = 5
+sebut = angka < 4 ? "di bawah empat" : "di atas empat"
+
+console.log(sebut)
+```
+
+Hasilnya adalah 
+
+```
+di atas empat
+```
+
+Jadi, maksud kode di atas adalah jika angka di bawah 4, maka nilai dari sebut adalah `di bawah empat` jika tidak maka nilai dari sebut adalah `di atas empat`.
+
+Kemudian kita cetak sebut ke layar.
