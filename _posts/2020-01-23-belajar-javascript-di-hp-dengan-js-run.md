@@ -53,6 +53,32 @@ true
 }
 ```
 
+_String dengan lebih dari satu baris_
+
+Oh iya, untuk string (yaitu yang diapit oleh dua kutip itu), cuma bisa dalam satu baris. Kalau lebih dari satu baris, pakai teknik yang telah kujabarkan di [postingan tentang string literal](ada-yang-pernah-pakai-template-literal-0121.html). Contoh penerapan dari string literal adalah:
+
+```javascript
+nama = `Zen
+Anggi
+Wawan`
+
+hasil = `Nama yang hadir adalah:
+
+${nama}`
+
+console.log(hasil)
+```
+
+Hasilnya adalah:
+
+```
+Nama yang hadir adalah:
+
+Zen
+Anggi
+Wawan
+```
+
 **Kondisi**
 
 ```javascript
