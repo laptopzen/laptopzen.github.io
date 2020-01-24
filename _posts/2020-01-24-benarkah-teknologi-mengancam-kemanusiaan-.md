@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Benarkah Teknologi Mengancam Kemanusiaan?"
+bahasa: twig
+date: 2020-01-24 08:47:24 +0800
+---
+
+Mungkin karena terpengaruh oleh film-film fiksi ilmiah atau perkataan orang-orang yang berkecimpung di dunia teknologi hingga kita berpikir seperti itu. Tapi, emang beneran kah?
+
+Teknologi ada justru untuk mempermudah kehidupan.
+
+Nanti tak edit lagi. Belum bisa fokus ni.
