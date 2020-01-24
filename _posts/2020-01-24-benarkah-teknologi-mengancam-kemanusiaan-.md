@@ -9,4 +9,10 @@ Mungkin karena terpengaruh oleh film-film fiksi ilmiah atau perkataan orang-oran
 
 Teknologi ada justru untuk mempermudah kehidupan.
 
-Nanti tak edit lagi. Belum bisa fokus ni.
+Oke itu pasti kita semua sudah tau. Jadi, kenapa sih suudzon banget sama teknologi? Teknologi kan sudah membantu separuh kehidupan kita. Maka, kita tinggal mengerjakan separuh kehidupan kita yang lain yaitu beribadah.
+
+Kan tujuan kita di dunia ini untuk beribadah.
+
+Kalau masalah intelektual dan berpikir yang rumit, sudah ada teknologi. Kita tinggal menggunakan.
+
+Tentu seharusnya kita bersyukur dengan karunia yang tak didapatkan orang dulu ini.
