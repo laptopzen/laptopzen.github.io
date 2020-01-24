@@ -27,7 +27,7 @@ Nah, aku ada buat tools untuk konvert Markdown ke HTML. [Ini linknya](markdown).
 
 ![contoh Markdown](https://telegra.ph/file/f0b9d7a07392b14931c94.png)
 
-![Contoh Markdown juga](https://telegra.ph/file/9ba9af8fb8737a7ab6e78.png)
+![Contoh Markdown juga](https://telegra.ph/file/1f0514e22886f982f5c76.png)
 
 Oh iya, aku nulis ini juga pakai Markdown. Soalnya kan kalau Jekyll tu buat postingan pakai Markdown.
 
