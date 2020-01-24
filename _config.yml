@@ -6,3 +6,5 @@ image: https://telegra.ph/file/4b2b57aa28ed4e3ba1e06.png
 
 plugins:
   - jekyll-feed
+
+timezone: Asia/Makassar
