@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Embed Video dari Youtube ke Blog"
+title: "Embed Video dari Youtube ke Blog (Responsif)"
 bahasa: html
 date: 2020-01-25 09:30:44 +0800
 ---
