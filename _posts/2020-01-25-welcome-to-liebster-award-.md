@@ -56,4 +56,18 @@ Nomor 3 skip lagi karena nggak ada yang nanya ke aku. Hehehehe.
 10. <http://renitaoktavia.com/>
 11. <https://bumbukasih.blogspot.com/?m=1>
 
+Dan ini 11 pertanyaanku buat kalian:
+
+1. Apa nama panggilanmu?
+2. Mengapa kamu suka blogging?
+3. Kenal aku kah?
+4. Kalau kamu jadi presiden, apa yang akan kamu wujudkan?
+5. Tentang apa blogmu?
+6. Punya kucing kah? Siapa namanya?
+7. Apa makanan favoritmu?
+8. Siapa blogger favoritmu?
+9. Kamu suka pemrograman?
+10. Di mana kamu tinggal?
+11. Pernahkah kamu menulis buku?
+
 Sekian dariku. Bye...
