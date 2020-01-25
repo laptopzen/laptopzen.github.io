@@ -23,6 +23,13 @@ nama = input("Siapa nama?\n")
 print("Halo %s" % nama)
 ```
 
+Atau bisa juga dengan:
+
+```python
+nama = input("Siapa nama?\n")
+print(f"Halo {nama}")
+```
+
 Hasil:
 
 ```
