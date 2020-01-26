@@ -5,7 +5,7 @@ bahasa: blogspot
 date: 2020-01-25 16:28:28 +0800
 ---
 
-Sebelumnya aku icapkan terima kasih buat kalian yang sudah setia mengunjungi blog ini. Ya, mungkin bisa dibilang ilmuku di dunia pemrograman ini baru sedikit. Namun, aku berusaha walaupun ilmuku sedikit, semoga bisa bermanfaat jika aku menuliskannya.
+Sebelumnya aku ucapkan terima kasih buat kalian yang sudah setia mengunjungi blog ini. Ya, mungkin bisa dibilang ilmuku di dunia pemrograman ini baru sedikit. Namun, aku berusaha walaupun ilmuku sedikit, semoga bisa bermanfaat jika aku menuliskannya.
 
 Oh iya, kali ini aku akan memulai tradisi yang sekarang nggak kelihatan lagi. Namanya Liebster Award.
 
