@@ -6,7 +6,7 @@ bahasa: javascript
 
 Jadi, artikel kali ini copy paste dari <https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5> buat simpanan pribadi aja sih. Jadi, bukan murni tulisanku ya.
 
-**1. all**
+# 1. all
 
 ```javascript
 const all = (arr, fn = Boolean) => arr.every(fn);
@@ -15,7 +15,7 @@ all([4, 2, 3], x => x > 1); // true
 all([1, 2, 3]); // true
 ```
 
-**2. allEqual**
+# 2. allEqual
 
 ```javascript
 const allEqual = arr => arr.every(val => val === arr[0]);
@@ -24,7 +24,7 @@ allEqual([1, 2, 3, 4, 5, 6]); // false
 allEqual([1, 1, 1, 1]); // true
 ```
 
-**3. approximatelyEqual**
+# 3. approximatelyEqual
 
 ```javascript
 const approximatelyEqual = (v1, v2, epsilon = 0.001) => Math.abs(v1 - v2) < epsilon;
@@ -32,7 +32,7 @@ const approximatelyEqual = (v1, v2, epsilon = 0.001) => Math.abs(v1 - v2) < epsi
 approximatelyEqual(Math.PI / 2.0, 1.5708); // true
 ```
 
-**4. arrayToCSV**
+# 4. arrayToCSV
 
 ```javascript
 const arrayToCSV = (arr, delimiter = ',') =>
@@ -42,7 +42,7 @@ arrayToCSV([['a', 'b'], ['c', 'd']]); // '"a","b"\n"c","d"'
 arrayToCSV([['a', 'b'], ['c', 'd']], ';'); // '"a";"b"\n"c";"d"'
 ```
 
-**5. arrayToHtmlList**
+# 5. arrayToHtmlList
 
 ```javascript
 const arrayToHtmlList = (arr, listID) =>
@@ -54,7 +54,7 @@ const arrayToHtmlList = (arr, listID) =>
 arrayToHtmlList(['item 1', 'item 2'], 'myListID');
 ```
 
-**6. attempt**
+# 6. attempt
 
 ```javascript
 const attempt = (fn, ...args) => {
@@ -70,7 +70,7 @@ var elements = attempt(function(selector) {
 if (elements instanceof Error) elements = []; // elements = []
 ```
 
-**7. average**
+# 7. average
 
 ```javascript
 const average = (...nums) => nums.reduce((acc, val) => acc + val, 0) / nums.length;
@@ -78,7 +78,7 @@ average(...[1, 2, 3]); // 2
 average(1, 2, 3); // 2
 ```
 
-**8. averageBy**
+# 8. averageBy
 
 ```javascript
 const averageBy = (arr, fn) =>
@@ -89,7 +89,7 @@ averageBy([{ n: 4 }, { n: 2 }, { n: 8 }, { n: 6 }], o => o.n); // 5
 averageBy([{ n: 4 }, { n: 2 }, { n: 8 }, { n: 6 }], 'n'); // 5
 ```
 
-**9. bifurcate**
+# 9. bifurcate
 
 ```javascript
 const bifurcate = (arr, filter) =>
@@ -98,7 +98,7 @@ bifurcate(['beep', 'boop', 'foo', 'bar'], [true, true, false, true]);
 // [ ['beep', 'boop', 'bar'], ['foo'] ]
 ```
 
-**10. bifurcateBy**
+# 10. bifurcateBy
 
 ```javascript
 const bifurcateBy = (arr, fn) =>

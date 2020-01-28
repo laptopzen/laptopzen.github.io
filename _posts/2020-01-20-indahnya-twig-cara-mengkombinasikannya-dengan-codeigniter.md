@@ -68,7 +68,7 @@ Sesuai dengan namanya, yaitu template engine PHP, maka template adalah fitur and
 
 Kalau di PHP, nggak ada fitur ini.
 
-**Menggabungkan Twig dengan Codeigniter**
+# Menggabungkan Twig dengan Codeigniter
 
 Nah, untuk menggabungkan Twig dengan PHP, kamu bisa menggunakan [Codeigniter Twig](https://github.com/mzaini30/codeigniter-twig). Petunjuk pemakaiannya ada di repositori tersebut.
 

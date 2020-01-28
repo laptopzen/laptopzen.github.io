@@ -12,7 +12,7 @@ Nah, salah satu cara yang biasa dilakukan programmer adalah copy paste skrip ata
 
 Nah, berikut ini ada beberapa trik supaya kamu koding di Codeigniter dengan cepat (untuk framework dan bahasa pemrograman lainnya menyusul ya):
 
-**Gunakan template engine**
+# Gunakan template engine
 
 _Menggunakan Codeigniter Twig_
 
@@ -51,7 +51,7 @@ Setelah kamu mendownload repositori ini, yang pertama kamu lakukan adalah menjal
 
 Nanti akan muncul folder vendor yang sizenya sekitar 9 MB.
 
-**Controller untuk form hanya satu function**
+# Controller untuk form hanya satu function
 
 Nah, dicoba deh skrip di bawah ini:
 
@@ -77,7 +77,7 @@ public function form_do(){
 }
 ```
 
-**Mendapatkan semua nilai post dari form**
+# Mendapatkan semua nilai post dari form
 
 Biasanya kan kita menggunakan sintaks seperti ini untuk mendapatkan data dari form:
 
@@ -100,7 +100,7 @@ $data = (array) $this->input->post();
 $this->db->insert("database", $data);
 ```
 
-**Menyingkat array**
+# Menyingkat array
 
 Kalau biasanya kan array itu seperti ini:
 
