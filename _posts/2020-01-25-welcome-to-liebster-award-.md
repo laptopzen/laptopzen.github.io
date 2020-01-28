@@ -15,7 +15,7 @@ Jadi Liebster Award ini adalah suatu penghargaan yang diberikan oleh seorang blo
 
 Liebster Award ini berasal dari bahasa Jerman yang artinya **tersayang**. Kok bahasa Jerman? Soalnya yang mulai award ini duluan blogger Jerman sih. Jadi, award ini diberikan kepada 11 blogger lainnya hingga akhirnya sampai ke Indonesia.
 
-**Syarat-syarat Liebster Award**
+## Syarat-syarat Liebster Award
 
 Jadi, Liebster Award ini ada syarat-syaratnya yaitu:
 
@@ -26,7 +26,7 @@ Jadi, Liebster Award ini ada syarat-syaratnya yaitu:
 
 Oke, nomor 1 skip aja aku ya soalnya aku mulai pertama sih. Hehehehe.
 
-**11 deskripsi tentang aku**
+## 11 deskripsi tentang aku
 
 1. Sudah nikah. What? Apa-apaan ini? Hehehehe
 2. Lebih suka pakai Linux daripada Windows karena sudah terbiasa
@@ -42,7 +42,7 @@ Oke, nomor 1 skip aja aku ya soalnya aku mulai pertama sih. Hehehehe.
 
 Nomor 3 skip lagi karena nggak ada yang nanya ke aku. Hehehehe.
 
-**11 blogger lain yang menerima penghargaan dariku**
+## 11 blogger lain yang menerima penghargaan dariku
 
 1. <http://www.hijrahfinansial.site/?m=1>
 2. <https://www.coretanbasayev.com/?m=1>

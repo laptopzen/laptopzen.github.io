@@ -11,7 +11,7 @@ Wow.
 
 Jadi, coba deh kita bahas berbagai teknik menjadikan browser sebagai database.
 
-**localStorage**
+## localStorage
 
 localStorage itu berarti satu variabel cuma bisa diisi dengan satu value. 
 
@@ -46,7 +46,7 @@ localStorage.setItem("nama", "Yani")
 // valuenya berubah menjadi Yani
 ```
 
-_Menambah data JSON ke dalam localStorage_
+### Menambah data JSON ke dalam localStorage
 
 Untuk menambahkan data JSON, maka kamu harus mengkonversi data JSON itu menjadi string terlebih dahulu dengan sintaks `JSON.stringify`. Sedangkan untuk mengubah string menjadi JSON, gunakan `JSON.parse`. Contohnya seperti berikut:
 
@@ -62,7 +62,7 @@ localStorage.setItem("nama", JSON.stringify(nama))
 JSON.parse(localStorage.nama)
 ```
 
-**sessionStorage**
+## sessionStorage
 
 Untuk sessionStorage sintaksnya sama dengan localStorage. Namun, penggunaannya yang berbeda.
 

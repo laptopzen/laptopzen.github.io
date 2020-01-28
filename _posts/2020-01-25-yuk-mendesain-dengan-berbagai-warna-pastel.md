@@ -11,7 +11,7 @@ Salah satu kendala bagi seorang desainer adalah menentukan warna yang tepat untu
 
 Oh iya, kalau kamu mau mencobanya, klik aja <https://mzaini30.com/materialize-color/>.
 
-**Cara menggunakannya**
+## Cara menggunakannya
 
 Kamu pilih aja warna yang kamu suka.
 

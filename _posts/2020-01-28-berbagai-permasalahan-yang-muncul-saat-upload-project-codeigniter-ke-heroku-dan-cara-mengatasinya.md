@@ -11,11 +11,11 @@ Lalu, ketika kita ingin mengajukan proposal website kepada suatu perusahaan, ten
 
 Jadi, link websitenya itu adalah <https://blog-sederhana.herokuapp.com/> yang kugunakan untuk dijual (kamu mau beli kah?). Nah, ketika aku upload ke Heroku, muncul tuh berbagai permasalahan. What? Dan berikut ini permasalahan dan pemecahannya:
 
-**PHP nggak bisa jalan**
+## PHP nggak bisa jalan
 
 Jalankan `composer update`.
 
-**Too many redirect**
+## Too many redirect
 
 Buka `.htaccess`.
 
@@ -49,7 +49,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]\
 
 Namun ternyata menimbulkan permasalahan di Heroku. Jadi, kutambahin tanda `#` di depannya supaya dianggap sebagai komentar.
 
-**Driver database (PDO) nggak ada**
+## Driver database (PDO) nggak ada
 
 Tambahkan `"ext-pdo_sqlite": "*"` di dalam `composer.json` sehingga kodenya menjadi seperti ini:
 
@@ -82,7 +82,7 @@ Tambahkan `"ext-pdo_sqlite": "*"` di dalam `composer.json` sehingga kodenya menj
 
 Lalu jalankan `composer update`.
 
-**Nggak bisa membuat session**
+## Nggak bisa membuat session
 
 Buka `/application/config/config.php` lalu pastikan kodenya seperti ini:
 
