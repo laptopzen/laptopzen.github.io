@@ -26,3 +26,9 @@ Misalnya saja ketika aku main Javascript, muncullah tulisan-tulisan tentang Java
 - [Bermain dengan angka besar](mencari-nilai-1000-faktorial-dengan-javascript-0124.html)
 - [Mempelajari fungsi](mengenal-fungsi-di-javascript-0124.html)
 - [Mengolah data Excel](mengolah-data-dari-excel-dengan-javascript-0122.html)
+
+Seru kan?
+
+## Mengapa hobi malah berbeda dengan jurusan kuliah?
+
+Ya nggak masalah sih. Yang namanya hobi juga kan sebagai suatu selingan (bisa juga menghasilkan) supaya kita tuh nggak suntuk dengan dunia kerja. Misalnya aku kan mahasiswa psikologi tapi kok malah main pemrograman? Ya, supaya nggak suntuk aja sih sama kehidupan kampus.
