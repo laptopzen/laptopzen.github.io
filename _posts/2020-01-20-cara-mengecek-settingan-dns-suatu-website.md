@@ -26,7 +26,7 @@ Maka, kita buka Termux Path dan isi bagian `Perintah` dengan `cek` dan isi `Kode
 
 Nah, sekarang, kita tinggal menjalankan `cek situs.com` aja di Termux.
 
-# Nyoba-nyoba ngecek
+## Nyoba-nyoba ngecek
 
 _mzaini30.com_
 

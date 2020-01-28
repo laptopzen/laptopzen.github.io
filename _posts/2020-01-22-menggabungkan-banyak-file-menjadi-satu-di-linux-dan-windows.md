@@ -8,7 +8,7 @@ Terkadang kita perlu menggabungkan banyak file menjadi satu file aja. Misalnya, 
 
 Lalu, bagaimana cara menggabungkannya?
 
-# Untuk pengguna Linux
+## Untuk pengguna Linux
 
 Buat file `gabung.sh` yang berisikan:
 
@@ -18,7 +18,7 @@ cat data.js proses.js > index.js
 
 Lalu untuk menjalankannya adalah dengan perintah: `bash gabung.sh`.
 
-# Untuk pengguna Windows
+## Untuk pengguna Windows
 
 Buat file `gabung.bat` yang isinya:
 

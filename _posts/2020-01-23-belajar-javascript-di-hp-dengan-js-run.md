@@ -14,7 +14,7 @@ Dan ini adalah contoh kode Javascript yang dijalankan dengan aplikasi tersebut:
 
 Nah, kita coba deh belajar dengan aplikasi tersebut. Yuk lah. Kita mulai dari yang paling dasar.
 
-# Berbagai tipe di Javascript
+## Berbagai tipe di Javascript
 
 ```javascript
 teks = "Zen"
@@ -79,7 +79,7 @@ Anggi
 Wawan
 ```
 
-# Kondisi
+## Kondisi
 
 ```javascript
 angka = 3

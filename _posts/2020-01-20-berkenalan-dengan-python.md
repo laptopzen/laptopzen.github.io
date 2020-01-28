@@ -12,7 +12,7 @@ Kemudian, untuk menggunakan Python di Termux, perintahnya adalah `python3 nama-f
 
 Dan, inilah yang aku lakukan:
 
-# Cobain input output sederhana
+## Cobain input output sederhana
 
 Untuk pemanasan, aku coba deh bermain input output sederhana.
 
@@ -38,7 +38,7 @@ Zen
 Halo Zen
 ```
 
-# Mengerjakan tugas hukuman nulis dari guru
+## Mengerjakan tugas hukuman nulis dari guru
 
 Biasanya kan kalau anak SD nakal, dikasih tuh hukuman nulis satu kalimat yang _sangat memotivasi_ di papan tulis sebanyak beberapa kali. Andaikan aja hukumannya disuruh ngetik, mungkin kode ini bisa digunakan:
 
@@ -62,7 +62,7 @@ Aku janji nggak akan nakal lagi
 Aku janji nggak akan nakal lagi
 ```
 
-# Perpangkatan
+## Perpangkatan
 
 Untuk perpangkatan, Python menggunakan sintaks `a ** b`. Berbeda dengan Javascript (yang versi lawas maksudku) harus menggunakan sintaks `Math.pow(a, b)`.
 
