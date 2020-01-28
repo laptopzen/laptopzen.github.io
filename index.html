@@ -11,42 +11,35 @@ halaman: index
 
 <div class="alert alert-info">Tersedia {{ site.posts.size }}+ teknik pemrograman gratis yang bisa kamu nikmati</div>
 
-
 {% assign tulisan = site.posts %}
-<div class="row">
+<div class="row post-list" itemscope itemtype="http://schema.org/Blog">
 	{% for x in tulisan %}
-		<div class="col-sm-3 col-xs-6 item-cari">
-			<a href="{{ x.url | replace: '/', ''}}" class="list-postingan">
-
-
-<div class="panel panel-default">
-<div class="panel-body">
-
-
-   <p> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url=https://laptopzen.github.io/logo/{{ x.bahasa }}.png" class="logo" alt=""></p>
-
-<div><small>{{ x.title }}</small></div>
-<div class="sembunyi">{{ x.bahasa }}</div>
-
-</div>
-</div>
-
-			</a>
-		</div>	
+    <div class="col-sm-3 col-xs-6 item-cari">
+      <a href="{{ x.url | replace: '/', ''}}" alt='{{ x.title }}' class="list-postingan">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url=https://laptopzen.github.io/logo/{{ x.bahasa }}.png" class="logo" alt=""></p>
+            <div><small>{{ x.title }}</small></div>
+            <div class="sembunyi">{{ x.bahasa }}</div>
+          </div>
+        </div>
+      </a>
+    </div>	
 	{% endfor %}
 </div>
 
 <div class="navbar navbar-fixed-bottom navbar-default">
   <div class="container">
-<table class="table table-bordered">
-<tr><td>
-    <div class="input-group">
-      <input class="form-control cari" placeholder="Apa yang kamu cari?">
-      <span class="input-group-addon hapus">&times;</span>
-    </div>
-</td>
-  <td><a href="https://digimart.co.id/user/mzaini30/" class="btn btn-success">Store</a></td>
-</tr>
-</table>
+    <table class="table table-bordered">
+      <tr>
+        <td>
+          <div class="input-group">
+            <input class="form-control cari" placeholder="Apa yang kamu cari?">
+            <span class="input-group-addon hapus">&times;</span>
+          </div>
+        </td>
+          <td><a href="https://digimart.co.id/user/mzaini30/" class="btn btn-success">Store</a></td>
+      </tr>
+    </table>
   </div>
 </div>

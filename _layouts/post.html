@@ -13,18 +13,22 @@ layout: default
 	}
 </style>
 
-
-
-	<h1>{{ page.title }}</h1>
+<div class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-header">
+		<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+		<p class="post-meta sembunyi">
+			<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+		</p>
+	</header>
 	<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=200&url=https://laptopzen.github.io/logo/{{ page.bahasa }}.png" class="pull-right logo-konten" alt="">
 
-<div class="isi-postingan">
-	{{ content }}
-</div>
+	<article class="isi-postingan post-content" itemprop="articleBody">
+		{{ content }}
+	</article>
 
-<p><code>Jangan lupa follow blog ini <a href="https://t.me/mzaini30bot">di Telegram</a> juga ya...</code></p>
-<p><em>Untuk penawaran sponsorship dan kerja sama, silahkan hubungi <a href="mailto: muhzaini30@gmail.com">muhzaini30@gmail.com</a></em></p>
-<p><strong>Baca juga yuk:</strong></p>
+	<p><code>Jangan lupa follow blog ini <a href="https://t.me/mzaini30bot">di Telegram</a> juga ya...</code></p>
+	<p><em>Untuk penawaran sponsorship dan kerja sama, silahkan hubungi <a href="mailto: muhzaini30@gmail.com">muhzaini30@gmail.com</a></em></p>
+	<p><strong>Baca juga yuk:</strong></p>
 
 	{% assign random = site.time | date: "%s" %}
 	{% assign acak_judul = page.title.size %}
@@ -49,26 +53,27 @@ layout: default
 	</table>
 
 
-<div id="disqus_thread"></div>
-<script>
+	<div id="disqus_thread"></div>
+	<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-var disqus_config = function () {
-this.page.url = 'https://mzaini30.com{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+	var disqus_config = function () {
+	this.page.url = 'https://mzaini30.com{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://laptopzen.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://laptopzen.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
 <div class="navbar navbar-fixed-bottom navbar-default">
   <div class="container">
