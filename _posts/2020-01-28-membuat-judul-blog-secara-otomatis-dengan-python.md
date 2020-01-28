@@ -232,8 +232,8 @@ file.close
 
 ## Hasil (screenshot)
 
-![](https://telegra.ph/file/9c83e3d24adf7a71bd7a3.png)
+![Tampilan Termux ketika menjalankan Python](https://telegra.ph/file/9c83e3d24adf7a71bd7a3.png)
 
-![](https://telegra.ph/file/564bdcc66a6afb29c0c48.png)
+![Penampakan filenya di file manajer](https://telegra.ph/file/564bdcc66a6afb29c0c48.png)
 
-![](https://telegra.ph/file/9eb4f7dc1959bd900bb0a.png)
+![Isi filenya](https://telegra.ph/file/9eb4f7dc1959bd900bb0a.png)
