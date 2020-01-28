@@ -28,6 +28,8 @@ Atau bisa juga dengan:
 ```python
 nama = input("Siapa nama?\n")
 print(f"Halo {nama}")
+
+# di sini, aku menggunakan string literal
 ```
 
 Hasil:
@@ -54,7 +56,12 @@ Hasil:
 
 ```
 Disuruh guru nulis berapa kali?
-5                                                     
+10                 
+Aku janji nggak akan nakal lagi
+Aku janji nggak akan nakal lagi
+Aku janji nggak akan nakal lagi
+Aku janji nggak akan nakal lagi
+Aku janji nggak akan nakal lagi
 Aku janji nggak akan nakal lagi
 Aku janji nggak akan nakal lagi
 Aku janji nggak akan nakal lagi
@@ -74,6 +81,10 @@ pangkat = int(input("Dipangkatkan berapa?\n"))
 hitung = angka ** pangkat
 
 print("%s^%s = %s" % (angka, pangkat, hitung))
+
+# atau bisa juga dengan
+
+print(f"{angka}^{pangkat} = {hitung}")
 ```
 
 Hasil:
