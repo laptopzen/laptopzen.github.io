@@ -63,6 +63,6 @@ faktorial = function (x) {
 }
 ```
 
-_Mengapa pakai BigInt()?_
+# Mengapa pakai BigInt()?
 
 Soalnya kalau integer biasa, dia hasilnya adalah Infinity soalnya rentang angkanya nggak sampai untuk memuat nilai dari faktorial 1000.
