@@ -12,7 +12,7 @@ Bisa dong. Itu namanya Twig. Salah satu template engine. Sekarang sih jadi favor
 
 Kalau kamu mau lebih mendalami Twig, bisa main ke [websitenya](https://twig.symfony.com/). Di artikel ini hanya sekilas aja sih.
 
-**Sintaks Twig**
+# Sintaks Twig
 
 _Menampilkan variabel_
 
@@ -30,7 +30,7 @@ Oh iya, kalau di Twig, semua value variabel diconvert HTML Spesial Karakter ya s
 
 Tapi kalau misalnya mau tetap; `<!--` tetap `<!--`, maka sintaks Twignya menjadi `{% raw %}{{ data | e }}{% endraw %}`.
 
-**Looping**
+# Looping
 
 Kalau di Twig:
 
@@ -53,7 +53,7 @@ Bandingin yah kalau di PHP biasa:
 
 Lebih rumit yang PHP kan?
 
-**Template**
+# Template
 
 Sesuai dengan namanya, yaitu template engine PHP, maka template adalah fitur andalannya. Sintaksnya seperti:
 

@@ -10,7 +10,7 @@ Javascript adalah bahasa pemrograman yang terus berkembang. Bahkan, saking berke
 
 Nah, sebagai pemula, tentu kita perlu mencoba dulu dong dasar-dasarnya, soalnya kalau kita belum sanggup menggunakan Javascript sebagai server, setidaknya kan kita sudah mencoba menggunakan Javascript untuk kehidupan sehari-hari. Nah, makanya aku buat postingan yang berisi pengolahan string menggunakan Javascript.
 
-**Mengubah semua huruf vokal menjadi i**
+# Mengubah semua huruf vokal menjadi i
 
 Yang ini lagi ngetren nih.
 
@@ -27,7 +27,7 @@ _Hasil_
 Kimi ngiming ipi sih?
 ```
 
-**Huruf besar dan huruf kecil selang-seling**
+# Huruf besar dan huruf kecil selang-seling
 
 _Kode_
 
@@ -51,7 +51,7 @@ _Hasil_
 InGiN MeNjAdI ApA SeTeLaH DeWaSa. InGiN MeNjAdI ApA. tAk tErBaYaNgKaN.
 ```
 
-**Menghapus karakter ketiga dari belakang**
+# Menghapus karakter ketiga dari belakang
 
 Kode di bawah ini berguna jika kita ingin mendapatkan tanggal sekarang atau bulan sekarang. Misalnya aja, kalau bulan kan rentangnya itu 1-12. Misalnya sekarang bulan Februari, maka akan didapatkan angka `2`. Sedangkan kita ingin angka `02`.
 
@@ -67,7 +67,7 @@ _Hasil_
 31
 ```
 
-**Cek palindrom**
+# Cek palindrom
 
 Palindrom adalah suatu teks yang jika dibalik teksnya, bentuknya tetap sama. Misalnya aja teks `ana`. Jika kita balik, maka tetap menjadi `ana`. Sedangkan contoh teks yang nggak palindrom adalah teks `kucing`. Jika teks `kucing` itu kita balik, maka akan menjadi `gnicuk`. Beda kan?
 
