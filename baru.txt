@@ -1,4 +1,4 @@
-import time, os, re
+import time, re
 
 tahun = time.localtime().tm_year
 bulan = time.localtime().tm_mon
