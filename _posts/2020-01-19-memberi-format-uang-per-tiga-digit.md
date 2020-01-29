@@ -82,7 +82,6 @@ Oh iya, untuk `id` dalam kode di atas, berarti penulisan uang dalam format Indon
 | zh-CN | Chinese | China |
 | zh-HK | Chinese | Hond Kong |
 | zh-TW | Chinese | Taiwan |
-{:.table.table-bordered}
 
 Jadi misalnya kita mau coba nih pakai formatnya Korea, tinggal kita ubah aja kodenya jadi:
 
