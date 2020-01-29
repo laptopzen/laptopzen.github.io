@@ -4,25 +4,10 @@ bahasa: css
 title: Tutorial Dasar HTML dan CSS
 ---
 
-Buat file `index.html` lalu isi dengan teks berikut ini:
+Hello, ketemu lagi dengan aku di sini.
 
-```html
-<p>Hello World</p>
-```
+Siapa aku? Hehehehe.
 
-Apa yang terjadi?
+Jadi, kita akan latihan HTML dan CSS. Dan tools yang aku gunakan adalah <https://jsfiddle.net/>. Jadi, dengan tools tersebut, kita bisa bermain HTML, CSS, dan Javascript secara online.
 
-Yap, sebuah tulisan Hello World.
-
-Kemudian coba ubah menjadi:
-
-```html
-<style>
-  p {
-    color: green;
-  }
-</style>
-<p>Hello World</p>
-```
-
-Sekarang, Hello World menjadi berwarna hijau.
+Untuk tutorial ini, kamu bisa mengakses hasil akhirnya di <https://jsfiddle.net/mzaini30/vkaxqs58/>.
