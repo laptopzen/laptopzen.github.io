@@ -14,13 +14,14 @@ halaman: index
 {% assign tulisan = site.posts %}
 <div class="row post-list" itemscope itemtype="http://schema.org/Blog">
 	{% for x in tulisan %}
-    <div class="col-sm-3 col-xs-6 item-cari">
-      <a href="{{ x.url | replace: '/', ''}}" alt='{{ x.title }}' class="list-postingan">
+    <div class="col-sm-3 col-xs-6 item-cari" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <span class="post-meta sembunyi"><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+      <a href="{{ x.url | replace: '/', ''}}" alt='{{ x.title }}' class="post-link list-postingan" itemprop="url">
         <div class="panel panel-default">
           <div class="panel-body">
             <p><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=250&url=https://laptopzen.github.io/logo/{{ x.bahasa }}.png" class="logo" alt=""></p>
-            <div><small>{{ x.title }}</small></div>
-            <div class="sembunyi">{{ x.bahasa }}</div>
+            <div itemprop="name"><small>{{ x.title }}</small></div>
+            <div class="sembunyi" itemprop="description">{{ x.bahasa }}</div>
           </div>
         </div>
       </a>
