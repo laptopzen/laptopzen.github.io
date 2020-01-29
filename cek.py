@@ -21,7 +21,6 @@ for n, x in enumerate(kata):
         nggak_lolos.append(postingan[n])
         kata_nggak_lolos.append(kata[n])
 
-os.system("clear")
 print(f"""Postingan yang kurang dari {minimal_kata} kata:
 """)
 for n, x in enumerate(nggak_lolos):
