@@ -29,9 +29,9 @@ Kalau untuk 192.168.43.1 dan 127.0.0.1 itu linknya atau IP addressnya nggak akan
 
 Makanya IPnya sering ganti-ganti. Mungkin biar aman.
 
-Nah, implementasinya seperti ini. Pertama, kamu nyalakan hotspot terlebih dahulu. Terus jalankan perintah ifconfig. Nah, catet tuh IP address yang berawalan angka 10 (misal 10.123.45.67).
+Nah, implementasinya seperti ini. Pertama, kamu nyalakan hotspot terlebih dahulu. Terus jalankan perintah ifconfig. Nah, catet tuh IP address yang berawalan angka 10 (misal 10.123.45.67). Mengapa mesti dicatet? Karena linknya itu akan senantiasa berubah. Misalnya sekarang 10.123.45.67. Beberapa menit kemudian, saat kita restart hotspotnya, berubah menjadi 10.213.11.999. Begitu.
 
-Terus kamu jalankan server website di HP kamu (pakai Termux tentunya):
+Terus kamu jalankan server website di HP kamu dengan PHP standalone (pakai Termux tentunya):
 
 ```bash
 php -S 10.123.45.67:2020
@@ -39,4 +39,4 @@ php -S 10.123.45.67:2020
 
 Kemudian, di HP yang menangkap tethering dari HPmu, coba buka deh `http://10.123.45.67:2020` pasti akan terbuka tuh website yang servernya di HPmu. Mantap.
 
-Sedangkan untuk 192.168.43.1 dan 127.0.0.1 itu localhost. Artinya ya kalau kamu jalankan server, cuma HPmu aja yang bisa buka. Begitu.
+Sedangkan untuk 192.168.43.1 dan 127.0.0.1 itu localhost. Artinya ya kalau kamu jalankan server, cuma HPmu aja yang bisa buka. Jadi, kalau dinyalakan hotspot (tethering), tetap saja klien hotspotmu itu nggak bisa mengakses dari link 192.168.43.1 maupun 127.0.0.1.
