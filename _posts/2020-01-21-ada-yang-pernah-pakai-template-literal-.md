@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ada yang Pernah Pakai Template Literal?
+title: Ada yang Pernah Pakai String Literal (Template Literal)?
 bahasa: javascript
 ---
 
