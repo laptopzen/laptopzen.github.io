@@ -169,6 +169,41 @@ Lebih panjang kan?
 
 Oh iya, kalau kamu mau baca string literal dalam Javascript, kamu bisa baca: <https://mzaini30.com/ada-yang-pernah-pakai-template-literal-0121.html>
 
+#### Tentang string literal di Python
+
+String literal di Python baru ada sejak python3.6 oleh Eric V. Smith pada bulan Agustus tahun 2015 ([Sumber](https://realpython.com/python-f-strings/)). Jadi, kalau kamu belum menggunakan yang versi 3.6, silahkan kamu update menjadi versi 3.6.
+
+##### Cek versi Python
+
+Untuk mengecek versi Python, cukup dengan perintah:
+
+```bash
+python3 --version
+```
+
+Nah, ketika aku ngecek di laptopku, ternyata masih menggunakan Python versi 3.5.2 jadi aku harus update ke versi 3.6.
+
+##### Update ke versi 3.6
+
+Tambahkan dulu repositori untuk Python 3.6:
+
+```bash
+sudo add-apt-repository ppa:jonathonf/python-3.6
+```
+
+Lalu, update dan install:
+
+```bash
+sudo apt update
+sudo apt install python3.6
+```
+
+Untuk menjalankannya, cukup dengan perintah:
+
+```bash
+python3.6 nama-file.py
+```
+
 ### Mengambil inputan
 
 ```python
