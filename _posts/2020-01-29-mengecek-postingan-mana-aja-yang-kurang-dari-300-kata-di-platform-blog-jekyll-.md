@@ -99,7 +99,8 @@ for n, x in enumerate(nggak_lolos):
 
 ```
 Postingan yang kurang dari 300 kata:
-                                                      - 2020-01-12-tutorial-dasar-html-dan-css.md (53 kata)
+                              
+- 2020-01-12-tutorial-dasar-html-dan-css.md (53 kata)
 - 2020-01-12-main-activity-untuk-aplikasi-android.md (241 kata)
 - 2020-01-12-belajar-javascript-untuk-pemula.md (155 kata)
 - 2020-01-15-bagaimana-cara-cepat-membuat-aplikasi-android-.md (30 kata)
