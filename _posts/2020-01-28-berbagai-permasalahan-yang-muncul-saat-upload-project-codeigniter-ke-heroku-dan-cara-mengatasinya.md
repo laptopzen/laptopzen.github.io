@@ -13,7 +13,7 @@ Jadi, link websitenya itu adalah <https://blog-sederhana.herokuapp.com/> yang ku
 
 ## PHP nggak bisa jalan
 
-Jalankan `composer update`.
+Jalankan `composer update`. Kemudian hapus `composer.lock` dari `.gitignore`.
 
 ## Too many redirect
 
