@@ -68,7 +68,7 @@ Tambahkan `"ext-pdo_sqlite": "*"` di dalam `composer.json` sehingga kodenya menj
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"ext-pdo_sqlite": "*" // di bagian sini ya
+		"ext-pdo_sqlite": "*"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
