@@ -106,7 +106,17 @@
 				}
 			})
 
-			$('.cari').on('keyup', function(){
+			bahasa = []
+			{% for x in site.posts %}
+				bahasa.push('{{ x.bahasa }}')
+			{% endfor %}
+
+			bahasa = [...new Set(bahasa)]
+			bahasa.sort()
+
+			$('.wadah-bahasa').html(bahasa.map(x => `<a href="#!" class="badge badge-default tombol-bahasa" data-bahasa='${x}'>${x}</a> `).join(''))
+
+			cari = () => {
 				if ($('.cari').val() != ''){
 					$('.item-cari').addClass('sembunyi')
 					$('.item-cari').each(function(){
@@ -117,6 +127,23 @@
 				} else {
 					$('.item-cari').removeClass('sembunyi')
 				}
+			}
+
+			$('.navbar-brand').click(x => {
+				x.preventDefault()
+				$('html, body').stop().animate({
+					scrollTop: 0
+				}, 800)
+			})
+
+			$('.tombol-bahasa').click(function(x){
+				x.preventDefault()
+				$('.cari').val($(this).attr('data-bahasa'))
+				cari()
+			})
+
+			$('.cari').on('keyup', function(){
+				cari()
 			})
 
 			$('.hapus').each(function(){
