@@ -86,6 +86,10 @@
 		.sembunyi {
 			display: none !important;
 		}
+
+		.aktif {
+			background: #ff5722 !important;
+		}
 	</style>
 </head>
 <body>
@@ -138,6 +142,8 @@
 
 			$('.tombol-bahasa').click(function(x){
 				x.preventDefault()
+				$('.tombol-bahasa').removeClass('aktif')
+				$(this).addClass('aktif')
 				$('.cari').val($(this).attr('data-bahasa'))
 				cari()
 			})
@@ -150,6 +156,10 @@
 				$(this).click(function(){
 					$(this).parent().find('.form-control').val('')
 					$('.item-cari').removeClass('sembunyi')
+					$('.tombol-bahasa').removeClass('aktif')
+					$('html, body').stop().animate({
+						scrollTop: 0
+					}, 800)
 				})
 			})
 		{% endif %}
