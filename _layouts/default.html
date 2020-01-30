@@ -157,6 +157,9 @@
 					$(this).parent().find('.form-control').val('')
 					$('.item-cari').removeClass('sembunyi')
 					$('.tombol-bahasa').removeClass('aktif')
+					$('html, body').stop().animate({
+						scrollTop: 0
+					}, 800)
 				})
 			})
 		{% endif %}
