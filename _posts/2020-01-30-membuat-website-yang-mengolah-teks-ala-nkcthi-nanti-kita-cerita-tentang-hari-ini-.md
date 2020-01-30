@@ -29,72 +29,72 @@ Nah, kita masuk ke bagian yang paling ditunggu-tunggu yaitu bedah kode. Maka, ki
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nanti Kita Cerita tentang Hari Ini</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-	<style>
-		* {
-			word-wrap: break-word;
-		}
+  <title>Nanti Kita Cerita tentang Hari Ini</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <style>
+    * {
+      word-wrap: break-word;
+    }
 
-		@font-face {
-			font-family: nkcthi;
-			src: url('font/GoodFoot - Font-NKCTHI.ttf');
-		}
+    @font-face {
+      font-family: nkcthi;
+      src: url('font/GoodFoot - Font-NKCTHI.ttf');
+    }
 
-		h1 {
-			font-family: nkcthi;
-		}
+    h1 {
+      font-family: nkcthi;
+    }
 
-		.navbar-fixed-bottom .table {
-			margin-bottom: 0;
-		}
+    .navbar-fixed-bottom .table {
+      margin-bottom: 0;
+    }
 
-		.navbar-fixed-bottom .table,
-		.navbar-fixed-bottom td {
-			border: none !important;
-		}
+    .navbar-fixed-bottom .table,
+    .navbar-fixed-bottom td {
+      border: none !important;
+    }
 
-		.hapus {
-			cursor: pointer;
-    		user-select: none;
-		}
+    .hapus {
+      cursor: pointer;
+      user-select: none;
+    }
 
-		body {
-			padding-bottom: 50px;
-		}
-	</style>
+    body {
+      padding-bottom: 50px;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<h1 class="hasil"></h1>
-	</div>
-	<div class="navbar navbar-default navbar-fixed-bottom">
-		<div class="container">
-			<table class="table table-bordered">
-				<tr>
-					<td>
-						<div class="input-group">
-							<input type="text" class="form-control input">
-							<div class="input-group-addon hapus">&times;</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script>
-		$('.hapus').each(function(){
-			$(this).click(function(){
-				$(this).parent().find('.form-control').val('')
-				$('.hasil').html('')
-			})
-		})
+  <div class="container">
+    <h1 class="hasil"></h1>
+  </div>
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <table class="table table-bordered">
+        <tr>
+          <td>
+            <div class="input-group">
+              <input type="text" class="form-control input">
+              <div class="input-group-addon hapus">&times;</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script>
+    $('.hapus').each(function(){
+      $(this).click(function(){
+        $(this).parent().find('.form-control').val('')
+        $('.hasil').html('')
+      })
+    })
 
-		$('.input').on('keyup', () => $('.hasil').html($('.input').val()))
-	</script>
+    $('.input').on('keyup', () => $('.hasil').html($('.input').val()))
+  </script>
 </body>
 </html>
 ```
@@ -112,15 +112,15 @@ Yang pertama tentu saja deklarasikan dulu bahwa kita pakai HTML 5.
 Lalu, kita atur judulnya dan viewport tampilan mobile (supaya di HP nggak zoom-zoom):
 
 ```html
-	<title>Nanti Kita Cerita tentang Hari Ini</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Nanti Kita Cerita tentang Hari Ini</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 ```
 
 Terus kita panggil Bootstrap CSS:
 
 ```html
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 ```
 
 Nah, sekarang kita mulai bahas CSSnya.
@@ -128,44 +128,44 @@ Nah, sekarang kita mulai bahas CSSnya.
 Diatur dulu bahwa semua elemen nggak boleh ada yang nabrak layar. Kalau nabrak, harus dipotong:
 
 ```css
-		* {
-			word-wrap: break-word;
-		}
+    * {
+      word-wrap: break-word;
+    }
 ```
 
 Kemudian kita panggil fontnya dan tetapkan bahwa setiap H1, fontnya harus pakai NKCTHI:
 
 ```css
-		@font-face {
-			font-family: nkcthi;
-			src: url('font/GoodFoot - Font-NKCTHI.ttf');
-		}
+    @font-face {
+      font-family: nkcthi;
+      src: url('font/GoodFoot - Font-NKCTHI.ttf');
+    }
 
-		h1 {
-			font-family: nkcthi;
-		}
+    h1 {
+      font-family: nkcthi;
+    }
 ```
 
 Terus, sedikit pengaturan untuk bagian menu bawah:
 
 ```css
-		.navbar-fixed-bottom .table {
-			margin-bottom: 0;
-		}
+    .navbar-fixed-bottom .table {
+      margin-bottom: 0;
+    }
 
-		.navbar-fixed-bottom .table,
-		.navbar-fixed-bottom td {
-			border: none !important;
-		}
+    .navbar-fixed-bottom .table,
+    .navbar-fixed-bottom td {
+      border: none !important;
+    }
 
-		.hapus {
-			cursor: pointer;
-    		user-select: none;
-		}
+    .hapus {
+      cursor: pointer;
+      user-select: none;
+    }
 
-		body {
-			padding-bottom: 50px;
-		}
+    body {
+      padding-bottom: 50px;
+    }
 ```
 
 Sekarang kembali bahas HTMLnya.
@@ -173,55 +173,55 @@ Sekarang kembali bahas HTMLnya.
 Kita gunakan `.container` agar ada jarak kanan dan kiri:
 
 ```html
-	<div class="container">
+  <div class="container">
 ```
 
 Lalu, kita buat H1 dengan class `.hasil`:
 
 ```html
-		<h1 class="hasil"></h1>
+    <h1 class="hasil"></h1>
 ```
 
 Lalu, bagian menu bawah:
 
 ```html
-	<div class="navbar navbar-default navbar-fixed-bottom">
-		<div class="container">
-			<table class="table table-bordered">
-				<tr>
-					<td>
-						<div class="input-group">
-							<input type="text" class="form-control input">
-							<div class="input-group-addon hapus">&times;</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <table class="table table-bordered">
+        <tr>
+          <td>
+            <div class="input-group">
+              <input type="text" class="form-control input">
+              <div class="input-group-addon hapus">&times;</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
 ```
 
 Sekarang, kita include jQuery dan akan kita bahas penggunaan Javascript:
 
 ```html
-	<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
 ```
 
 Setiap kali ngeklik tombol `x`, maka dia akan menghapus inputan di sebelahnya:
 
 ```javascript
-		$('.hapus').each(function(){
-			$(this).click(function(){
-				$(this).parent().find('.form-control').val('')
-				$('.hasil').html('')
-			})
-		})
+    $('.hapus').each(function(){
+      $(this).click(function(){
+        $(this).parent().find('.form-control').val('')
+        $('.hasil').html('')
+      })
+    })
 ```
 
 Kemudian, setiap kali kita ketikkan teks di inputan bawah, maka akan ditampilkan pula di dalam tag H1 yang memiliki class `.hasil` tadi:
 
 ```javascript
-		$('.input').on('keyup', () => $('.hasil').html($('.input').val()))
+    $('.input').on('keyup', () => $('.hasil').html($('.input').val()))
 ```
 
 Oh iya, sintaks
