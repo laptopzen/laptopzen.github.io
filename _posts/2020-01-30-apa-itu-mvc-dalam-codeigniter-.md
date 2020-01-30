@@ -40,8 +40,8 @@ Jadi, bagus mana nih antara Codeigniter murni atau Codeigniter Twig? Ya sesuai s
 Controller itu seperti namanya yaitu pengatur. Nah, Controller adalah inti sebuah framework yang bersistem MVC. Dengan Controller ini, Model dan View bisa digerakkan. Soalnya, ketika kita mengakses suatu link, maka yang dipanggil pertama adalah Controllernya. Misalnya aja link `http://localhost/admin/tampil/5`. Itu sama saja dengan mengakses:
 
 ```php
-// nama file: Admin.php
 <?php
+// nama file: Admin.php
 class Admin extends CI_Controller {
   public function tampil($id){
     // kodenya di sini
