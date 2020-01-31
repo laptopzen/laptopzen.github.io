@@ -1,6 +1,6 @@
 import os, re
 
-minimal_kata = 300
+minimal_kata = 600
 
 postingan = os.listdir("_posts")
 
