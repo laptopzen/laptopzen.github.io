@@ -13,14 +13,14 @@ Banyak hal yang bisa dilakukan oleh pemrograman. Salah satunya adalah dengan Pyt
 import re
 
 def inputbanyak():
-	lines = []
-	while True:
-		line = input()
-		if line != ':wq':
-			lines.append(line)
-		else:
-			break
-	return '\n'.join(lines)
+  lines = []
+  while True:
+    line = input()
+    if line != ':wq':
+      lines.append(line)
+    else:
+      break
+  return '\n'.join(lines)
 
 print('''Masukkan artikel yang mau dihitung.
 Lalu ketik :wq jika telah selesai.''')
@@ -44,14 +44,14 @@ Kemudian, kita load dulu fungsi supaya kita bisa input banyak:
 
 ```python
 def inputbanyak():
-	lines = []
-	while True:
-		line = input()
-		if line != ':wq':
-			lines.append(line)
-		else:
-			break
-	return '\n'.join(lines)
+  lines = []
+  while True:
+    line = input()
+    if line != ':wq':
+      lines.append(line)
+    else:
+      break
+  return '\n'.join(lines)
 ```
 
 Lalu, kita masukkan teks sebagai instruksi:
