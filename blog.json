@@ -4,7 +4,9 @@
 [
   {% for x in site.posts %}
     {
-      "judul": "{{ x.title | jsonify }}"
+      "judul": {{ x.title | jsonify }},
+      "bahasa": {{ x.bahasa | jsonify }},
+      "link": {{ x.url | jsonify }}
     }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
