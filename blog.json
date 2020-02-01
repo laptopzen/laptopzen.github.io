@@ -1,4 +1,11 @@
 ---
 ---
 
-{{ site.posts | jsonify }}
+[
+  {% for x in site.posts %}
+    {
+      "judul": "{{ x.title | jsonify }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
