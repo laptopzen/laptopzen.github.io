@@ -52,3 +52,5 @@ Buat file `CNAME` yang isinya:
 ```
 situs.com
 ```
+
+Mudah kan ternyata? Ayo deh buat blog yang basisnya di Github Pages biar aku ada temennya. Hehehehhe.
