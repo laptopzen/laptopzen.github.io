@@ -47,7 +47,7 @@ Masuk di bagian setting DNS di hostingan yang kamu sewa. Lalu setting seperti:
 
 ## Setting di Github
 
-Buat file `CNAME` yang isinya:
+Buat file `CNAME` yang isinya: 
 
 ```
 situs.com
