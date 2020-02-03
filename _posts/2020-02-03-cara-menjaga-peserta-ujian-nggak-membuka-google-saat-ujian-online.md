@@ -11,7 +11,7 @@ Namun, yang jadi masalah itu adalah jika ketika ujian, peserta/mahasiswa membuka
 
 Tambahkan kode Javascript berikut ini di halaman web ujian online
 
-```
+```javascript
 $(window).on("blur", () => /* skrip yang mau dijalankan */)
 ```
 
