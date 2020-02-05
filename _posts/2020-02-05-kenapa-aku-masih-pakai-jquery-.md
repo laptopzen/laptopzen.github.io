@@ -60,7 +60,7 @@ Atau aku ingin bermain AJAX (HTTP Request):
 ```javascript
 $.get("/data.php", () => $(".pesan").html("Data sudah diterima"))
 
-$.post("/posting.php", $("form").serialize(), $(".pesan").html("Data terkirim"))
+$.post("/posting.php", $("form").serialize(), () => $(".pesan").html("Data terkirim"))
 ```
 
 Atau ingin mengambil elemen di atas kita:
