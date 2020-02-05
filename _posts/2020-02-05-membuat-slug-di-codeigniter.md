@@ -59,3 +59,13 @@ Terakhir, kita kasih angka acak supaya kalau ada judul yang sama, bisa kita kasi
 ```php
 $data->slug = $teks . '-' . rand(1, 99999);
 ```
+
+## Teknik lainnya
+
+Barusan baca komennya Bang Fika (cek Disqus di bawah) ternyata bisa aja pakai skrip satu baris ini:
+
+```php
+url_title(strtolower($this->input->post('title')));
+```
+
+Wow menarik. Nanti aku coba lah.
