@@ -11,7 +11,7 @@ Perkembangan bahasa pemrograman saat ini sangatlah pesat. Bahkan, ada yang bilan
 
 Tapi, kenapa aku masih pakai jQuery padahal kawan-kawan lainnya (thanks buat kalian kawan-kawan di Javascript Indonesia) menyarankan untuk menggunakan Vanilla JS atau framework Javascript yang lebih modern seperti RGB (Angular, Vue, dan React)? Jadi, aku akan mengungkapkan alasannya.
 
-## 1. Udah hapal mati kodenya. Hahahaha
+## Udah hapal mati kodenya. Hahahaha
 
 Ya misalnya kalau ingin menambahkan CSS, tinggal buat kode seperti:
 
@@ -76,11 +76,3 @@ $(".elemen").find(".makan")
 ```
 
 Apalagi ya? Banyak sih masih. Masak iya sih aku tunjukkan semua? Hahahahahhaa.
-
-## 2. Lagi males pelajari framework Javascript lainnya
-
-## 3. Udah pewe
-
-## 4. Dilihat sekilas aja udah paham maksud kodenya
-
-## 5. Aku nggak masalah sama kinerja jQuery
