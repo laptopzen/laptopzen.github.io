@@ -58,4 +58,4 @@ $.post("/proses.php", $(".form").serialize(), () => $(".notice").html("Data tela
 $.get("/data.php", () => $(".notice").html("Data telah diterima"))
 ```
 
-Mengapa aku menggunakan panah? Itu namanya arrow function. Monggo baca artikelku tentang [berbagai bentuk fungsi dai Javascript](mengenal-fungsi-di-javascript-0124.html).
+Mengapa aku menggunakan panah? Itu namanya arrow function. Monggo baca artikelku tentang [berbagai bentuk fungsi di Javascript](mengenal-fungsi-di-javascript-0124.html).
