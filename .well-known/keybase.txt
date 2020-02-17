@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mzaini30
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mzaini30.com
+  * I am mzaini30 (https://keybase.io/mzaini30) on keybase.
+  * I have a public key ASBaSf0Aroi2-GQT8LhH9CNVVyyDf-tGdPEIAdCIJ5cpdQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205a49fd00ae88b6f86413f0b847f42355572c837feb4674f10801d088279729750a",
+      "host": "keybase.io",
+      "kid": "01205a49fd00ae88b6f86413f0b847f42355572c837feb4674f10801d088279729750a",
+      "uid": "9c65523e6c59112f0e82e10dc72b1119",
+      "username": "mzaini30"
+    },
+    "merkle_root": {
+      "ctime": 1581954906,
+      "hash": "cd9ccf32720541a98daeaf2d97e8a6f6b6754269e7046832df95a81a9c0b78d89cd57880f1aac424aa8e013313545fce0284866d3e5a121ea7f546d6939f13ad",
+      "hash_meta": "a04d1c2138e50a9ed6df26565e6a4883e986807b08f3cff16794362e7b1f043b",
+      "seqno": 14628538
+    },
+    "service": {
+      "entropy": "kjhHnwP8X91mGPsKjget/n07",
+      "hostname": "mzaini30.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581954924,
+  "expire_in": 504576000,
+  "prev": "189f1e3d6af602281bbb30bb1c632cc633bb59cca12e287a119f20d8f05cfc53",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWkn9AK6ItvhkE/C4R/QjVVcsg3/rRnTxCAHQiCeXKXUKp3BheWxvYWTESpcCCMQgGJ8ePWr2AigbuzC7HGMsxjO7WcyhLih6EZ8g2PBc/FPEIKHZc9QTvqshRUWMfon2GBJ3XGe/uTOvqTBr4Fl/S6NAAgHCo3NpZ8RAPMupbpyPNAx8Jz2aO2sSwVba9tj7swjIaJyS6uZNP4nNdga3nFzjlnYRyqK/pHq6gtM75RLOpC1Zj5VaxiOwD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDXbi1tP7Q+nz7qxrJ0YvePfxERJKM+06xvCx6vrfl1yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mzaini30
+
+==================================================================
