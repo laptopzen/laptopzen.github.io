@@ -39,3 +39,39 @@ Hasilnya:
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/ndos1m98girm9fz686bx.png)
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/zx0oy7qs5raszqkm6jn3.png)
+
+# Edit
+
+Ini kalau sudah ditambahkan fitur `localStorage`:
+
+```javascript
+buat_dark = () => {
+    // ini kalau q.length nggak jalan / elemen belum ada
+    var h = document.getElementsByTagName('head')[0],
+        s = document.createElement('style');
+    s.setAttribute('type', 'text/css');
+    s.setAttribute('id', 'nightify');
+    s.appendChild(document.createTextNode('html{-webkit-filter:invert(100%) hue-rotate(180deg) contrast(70%) !important; background: #fff;} .line-content {background-color: #fefefe;}'));
+    h.appendChild(s); 
+    localStorage.setItem('dark', 'true')
+    return true
+}
+
+localStorage.dark == 'true' ? buat_dark() : ''
+
+function dark() {
+    let q = document.querySelectorAll('#nightify')
+    if(q.length) {
+        // ini kalau elemen sudah ada
+        q[0].parentNode.removeChild(q[0])
+        localStorage.removeItem('dark')
+        return false
+        // false berarti hentikan proses
+    }
+    buat_dark()
+}
+
+$(".dark").click(() => dark())
+
+$("body").css("min-height", $(window).height())
+```
