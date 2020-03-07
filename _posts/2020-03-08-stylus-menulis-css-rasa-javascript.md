@@ -24,7 +24,7 @@ Tau nggak sih kalau kita bisa menampilkan CSS dengan filosofi programmer? Wow. C
 
 Kalau kode di atas ditulis dengan bahasa Stylus, maka akan berubah menjadi:
 
-```saas
+```scss
 .elemen
   background blue 
   color red 
