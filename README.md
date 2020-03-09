@@ -7,3 +7,7 @@ Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi
 ## Javascript
 
 - [Mudahnya membuat docs dengan Docsify](/javascript/docsify)
+
+# Opini
+
+- [Kenapa sih membuat aplikasi?](/opini/mengapa-aplikasi)
