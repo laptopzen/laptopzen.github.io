@@ -11,3 +11,8 @@ Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi
 # Opini
 
 - [Kenapa sih membuat aplikasi?](/opini/mengapa-aplikasi)
+
+# Review buku
+
+- [Cara kerja oleh Kuark](/buku/cara-kerja)
+- [Status hukum demokrasi oleh Abdul mun'im musthofa halimah](/buku/status-hukum-demokrasi)
