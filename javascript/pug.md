@@ -37,8 +37,30 @@ html
 npm install -g pug-cli
 ```
 
+Kalau menggunakan Linux:
+
+```bash
+sudo npm install -g pug-cli
+```
+
 ## Cara menggunakan
 
 ```bash
 pug . -w
+```
+
+Titik itu artinya memilih semua file yang memiliki ekstensi `.pug`.
+
+`-w` berarti watch. Artinya, setiap ada perubahan pada file pug, browser akan reload secara otomatis.
+
+Tapi kalau kita ingin prettify, artinya kode HTML yang ditampilkan itu nggak numpuk jadi satu baris, kodeny berubah menjadi:
+
+```bash
+pug . -w -P
+```
+
+Kalau kita ingin output HTMLnya di folder tertentu, misalnya di folder `html`, maka kodenya berubah menjadi:
+
+```bash
+pug . -w -o html -P
 ```
