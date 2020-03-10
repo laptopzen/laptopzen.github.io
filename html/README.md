@@ -24,6 +24,8 @@ Sekarang, aku akan menjelaskan kode di atas.
 
 `<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">` untuk tampilan mobile.
 
+Kemudian, semua yang kita lihat di browser itu yang letaknya di antara tag `<body>` dan `</body>`.
+
 ## Mengolah teks 
 
 ### Tebal
@@ -32,8 +34,16 @@ Sekarang, aku akan menjelaskan kode di atas.
 <strong>Tebal</strong>
 ```
 
+Contoh:
+
+<strong>Tebal</strong>
+
 ### Miring
 
 ```html 
 <em>Miring</em>
 ```
+
+Contoh:
+
+<em>Miring</em>
