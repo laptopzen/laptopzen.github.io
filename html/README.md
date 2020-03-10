@@ -16,6 +16,10 @@
 </html>
 ```
 
+Sekarang, aku akan menjelaskan kode di atas.
+
+`<!doctype html>` untuk menentukan bahwa kita akan menggunakan html 5.
+
 ## Mengolah teks 
 
 ### Tebal
