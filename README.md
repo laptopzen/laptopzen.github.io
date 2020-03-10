@@ -4,6 +4,10 @@ Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi
 
 # Bahasa pemrograman
 
+## HTML
+
+- [Dasar HTML](/html/)
+
 ## Javascript
 
 - [Mudahnya membuat docs dengan Docsify](/javascript/docsify)
