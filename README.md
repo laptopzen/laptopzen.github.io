@@ -2,7 +2,7 @@ Selamat datang di website Zen.
 
 Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi. Semoga bisa membantu kalian yang lagi belajar.
 
-# Bahasa pemrograman dan markup
+# Tutorial pemrograman
 
 ## HTML
 
