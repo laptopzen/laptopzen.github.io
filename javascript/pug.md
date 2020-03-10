@@ -23,14 +23,12 @@ Coba kalau kita pakai Pug:
 
 ```pug 
 doctype html
-head
-  title Hello world
-h1 Hello world
-p
-  | Lorem ipsum 
-  em dolor
-  |  sit 
-  strong amet
+html 
+  head 
+    title Hello world
+  body 
+    h1 Hello world
+    p Lorem ipsum #[em dolor] sit #[strong amet]
 ```
 
 ## Instalasi
