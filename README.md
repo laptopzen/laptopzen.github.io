@@ -15,9 +15,11 @@ Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi
 - [Babel: Menghadirkan Javascript modern di browser lawas](/javascript/babel)
 - [Membuat HTML dengan cepat menggunakan Pug](/javascript/pug)
 - [Mudahnya membuat docs dengan Docsify](/javascript/docsify)
+- [Stylus: Masa depan CSS](/javascript/stylus)
 
 ## Opini
 
+- [Kenapa sih developer website mesti mengembangkan fitur dark mode?](/opini/dark-mode)
 - [Kenapa sih membuat aplikasi?](/opini/mengapa-aplikasi)
 
 ## Konten lainnya
