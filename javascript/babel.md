@@ -1,3 +1,5 @@
+# Yuk mengenal Babel
+
 Pernah nggak kamu mau menggunakan fitur yang keren dan simpel banget tapi browser nggak dukung?
 
 Misalnya aja kamu mau menggunakan arrow function bersamaan dengan string literal di Javascript seperti contoh di bawah ini:

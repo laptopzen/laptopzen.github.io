@@ -11,6 +11,7 @@ Jadi, di website ini insya Allah aku akan sharing berbagai hal tentang teknologi
 ## Javascript
 
 - [Babel: Menghadirkan Javascript modern di browser lawas](/javascript/babel)
+- [Membuat HTML dengan cepat menggunakan Pug](/javascript/pug)
 - [Mudahnya membuat docs dengan Docsify](/javascript/docsify)
 
 # Opini
