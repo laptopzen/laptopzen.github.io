@@ -1,1 +1,1 @@
-hello world
+Pernah nggak kamu mau menggunakan fitur yang keren dan simpel banget tapi browser nggak dukung?
