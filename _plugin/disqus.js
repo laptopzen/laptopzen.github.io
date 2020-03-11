@@ -30,7 +30,8 @@
 
       // eslint-disable-next-line
       window.disqus_config = function() {
-        this.page.url = location.origin + '/-' + vm.route.path;
+        //this.page.url = location.origin + '/-' + vm.route.path;
+        this.page.url = 'https://mzaini30.com/#' + vm.route.path;
         this.page.identifier = vm.route.path;
         this.page.title = document.title;
       };
@@ -41,7 +42,8 @@
         window.DISQUS.reset({
           reload: true,
           config: function() {
-            this.page.url = location.origin + '/-' + vm.route.path;
+            // this.page.url = location.origin + '/-' + vm.route.path;
+            this.page.url = 'https://mzaini30.com/#' + vm.route.path;
             this.page.identifier = vm.route.path;
             this.page.title = document.title;
           },
