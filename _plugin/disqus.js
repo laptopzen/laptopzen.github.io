@@ -35,6 +35,7 @@
         this.page.identifier = vm.route.path;
         this.page.title = document.title;
       };
+      console.log(disqus_config())
     });
 
     hook.doneEach(function (_) {
