@@ -64,3 +64,32 @@ Kalau kita ingin output HTMLnya di folder tertentu, misalnya di folder `html`, m
 ```bash
 pug . -w -o html -P
 ```
+
+## Mencoba Pug
+
+### Contoh pertama
+
+```pug
+doctype html
+html
+  head
+    title Hello world
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  body
+    h1 Hello world
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello world</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <h1>Hello world</h1>
+  </body>
+</html>
+```
