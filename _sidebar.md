@@ -1,11 +1,13 @@
 - Tutorial pemrograman
-  - HTML
-    - [Dasar](/html/ "Dasar HTML")
-  - Javascript
-    - [Babel](/javascript/babel)
-    - [Docsify](/javascript/docsify)
-    - [Pug](/javascript/pug)
-    - [Stylus](/javascript/stylus)
+  - Behavior
+    - [Babel](/behavior/babel)
+  - Framework
+    - [Docsify](/framework/docsify)
+  - Skeleton
+    - [HTML](/skeleton/html)
+    - [Pug](/skeleton/pug)
+  - Style
+    - [Stylus](/style/stylus)
 - Opini
   - [Dark mode](/opini/dark-mode)
   - [Mengapa membuat aplikasi?](/opini/mengapa-aplikasi)
