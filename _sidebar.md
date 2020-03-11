@@ -15,3 +15,5 @@
   - Review buku
     - [Cara kerja](/buku/cara-kerja)
     - [Status hukum demokrasi](/buku/status-hukum-demokrasi)
+  - Random
+    - [Debat](/random/debat)
