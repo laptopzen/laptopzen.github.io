@@ -1,0 +1,11 @@
+a
+	color blue
+	
+	&:hover
+		color green
+		
+	&:active
+		color red
+		
+	& p
+		background magenta
