@@ -21,3 +21,9 @@ Jadi memang tujuan yang ini awalnya hanya sekedar hobi. Nggak ada tujuan lain se
 ## Cari duit
 
 Yang namanya duit itu kebutuhan. Apa aja sekarang pakai duit. Naro motor aja harus bayar 2 ribu kok. Maka, bagi orang yang bisa membuat aplikasi, pasti digunakan dong skillnya untuk meraih pundi-pundi rupiah.
+
+## Pengen meningkatkan skill 
+
+Kalau nggak buat aplikasi, pengetahuan kita tu mandek. Makanya, perlu membuat aplikasi supaya pengetahuan kita terus berkembang.
+
+Dan skill pun makin terasah.
