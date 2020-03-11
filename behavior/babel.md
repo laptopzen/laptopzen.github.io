@@ -24,4 +24,36 @@ Lebih ribet dan nggak indah ya? Tapi ya memang begitu sih kodenya kalau mau mend
 
 Dengan Babel, kamu bisa mengetik kode seperti biasa. Entah itu kamu menggunakan Ecmascript versi 2015, 2016, 2017, dan berbagai versi lainnya, Babel akan mengkonversinya menjadi format Javascript yang paling lawas sehingga kamu nggak perlu khawatir apakah kodemu bisa dijalankan atau nggak. Serahkan saja semua ke Babel.
 
+## Contoh menggunakan Babel
+
+### Input
+
+```javascript
+var sebut = nama => console.log(`Halo ${nama}`)
+```
+
+### Output
+
+```javascript
+"use strict";
+
+var sebut = function sebut(nama) {
+  return console.log("Halo " + nama);
+};
+```
+
+### Input
+
+```javascript
+console.log(2 ** 3)
+```
+
+### Output
+
+```javascript 
+"use strict";
+
+console.log(Math.pow(2, 3));
+```
+
 Untuk mulai menggunakan Babel, silahkan [kunjungi situsnya.](https://babeljs.io/)
