@@ -1,4 +1,4 @@
-# Beharkah hacker itu selalu merusak?
+# Benarkah hacker itu selalu merusak?
 
 Entah mengapa hacker itu selalu diidentikkan dengan merusak. Padahal kan nggak selalu gitu.
 
