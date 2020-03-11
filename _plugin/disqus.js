@@ -8,7 +8,7 @@
   function install(hook, vm) {
     var dom = Docsify.dom;
     var disqus = vm.config.disqus;
-    website = vm.config.website
+    var website = vm.config.website;
     if (!disqus) {
       throw Error('$docsify.disqus is required');
     }
