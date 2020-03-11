@@ -7,7 +7,7 @@
 
   function install(hook, vm) {
     var dom = Docsify.dom;
-    var disqus = vm.config.disqus;
+    // var disqus = vm.config.disqus;
     var website = vm.config.website;
     if (!disqus) {
       throw Error('$docsify.disqus is required');
@@ -32,7 +32,7 @@
       // eslint-disable-next-line
       window.disqus_config = function() {
         // this.page.url = location.origin + '/-' + vm.route.path;
-        this.page.url = website + '/#' + vm.route.path;
+        this.page.url = vm.config.website + '/#' + vm.route.path;
         this.page.identifier = vm.route.path;
         this.page.title = document.title;
       };
@@ -44,7 +44,7 @@
           reload: true,
           config: function() {
             // this.page.url = location.origin + '/-' + vm.route.path;
-            this.page.url = website + '/#' + vm.route.path;
+            this.page.url = vm.config.website + '/#' + vm.route.path;
             this.page.identifier = vm.route.path;
             this.page.title = document.title;
           },
