@@ -12,7 +12,10 @@
     - [Stylus](/style/stylus)
 - Opini
   - [Dark mode](/opini/dark-mode)
+  - [Hacker merusak](/opini/hacker-merusak)
   - [Mengapa membuat aplikasi?](/opini/mengapa-aplikasi)
+- Tools 
+  - [Kalkulator Caraka](/caraka ":ignore")
 - Konten lainnya
   - Review buku
     - [Cara kerja](/buku/cara-kerja)
