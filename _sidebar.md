@@ -1,6 +1,6 @@
 - Tutorial pemrograman
   - HTML
-    - [Dasar HTML](/html/)
+    - [Dasar](/html/ "Dasar HTML")
   - Javascript
     - [Babel](/javascript/babel)
     - [Docsify](/javascript/docsify)
