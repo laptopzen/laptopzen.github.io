@@ -20,4 +20,4 @@ Lihat kan, nggak ada yang kriminal.
 
 Perbuatan kriminal malah membuat kita gampang terjerat hukum dan akhirnya masuk penjara. Lalu, siapa yang rugi kalau kita dipenjara? Kita sendiri kan?
 
-Jadi, manfaatkan skill yang dimiliki bukan untuk kriminal, tapi memperbanyak amal jariyah untuk bekal kita di akhirat kelak.
+> Jadi, manfaatkan skill yang dimiliki bukan untuk kriminal, tapi memperbanyak amal jariyah untuk bekal kita di akhirat kelak.
