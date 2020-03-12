@@ -8,6 +8,7 @@
     - [Docsify](/framework/docsify)
   - Jaringan 
     - [Custom domain](/jaringan/custom-domain-github "Custom domain untuk github pages")
+    - [Free js org domain](/jaringan/js-org)
   - Skeleton
     - [HTML](/skeleton/html)
     - [Pug](/skeleton/pug)
