@@ -3,6 +3,7 @@
 - Tutorial pemrograman
   - Behavior 
     - [Babel](/behavior/babel)
+    - [jQuery](/behavior/jquery)
   - Framework
     - [Docsify](/framework/docsify)
   - Skeleton
@@ -13,6 +14,8 @@
 - Tools 
   - [Embed Youtube](/tools/embed)
   - [Kalkulator Caraka](/tools/kalkulator-caraka)
+  - [Kontur](/tools/kontur)
+  - [Kontur reverse](/tools/kontur-reverse)
   - [Markdown](/tools/markdown)
   - [Materialize Color](/tools/materialize-color)
   - [NKCTHI](/tools/nkcthi "Nanti kita cerita tentang hari ini")
