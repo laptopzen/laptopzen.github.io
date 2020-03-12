@@ -13,6 +13,7 @@
     - [HTML](/skeleton/html)
     - [Pug](/skeleton/pug)
   - Style
+    - [Paper css tabs](/style/paper-css-tabs)
     - [Stylus](/style/stylus)
 - Tools 
   - [Embed Youtube](/tools/embed)
