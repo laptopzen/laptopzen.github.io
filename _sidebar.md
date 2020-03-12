@@ -23,6 +23,7 @@
   - [Materialize Color](/tools/materialize-color)
   - [NKCTHI](/tools/nkcthi "Nanti kita cerita tentang hari ini")
   - [Nulis](/tools/nulis)
+  - [Pantau corona](/tools/pantau-corona)
   - [Pisah satuan](/tools/pisah-satuan)
 - Opini
   - [Dark mode](/opini/dark-mode)
