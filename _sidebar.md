@@ -36,5 +36,6 @@
     - [Cara kerja](/buku/cara-kerja)
     - [Status hukum demokrasi](/buku/status-hukum-demokrasi)
   - Random
+    - [Beres-beres](/random/beres-beres)
     - [Debat](/random/debat)
     - [Tepat waktu](/random/tepat-waktu)
