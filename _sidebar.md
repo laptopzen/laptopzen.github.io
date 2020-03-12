@@ -11,7 +11,13 @@
   - Style
     - [Stylus](/style/stylus)
 - Tools 
+  - [Embed Youtube](/tools/embed)
   - [Kalkulator Caraka](/tools/kalkulator-caraka)
+  - [Markdown](/tools/markdown)
+  - [Materialize Color](/tools/materialize-color)
+  - [NKCTHI](/tools/nkcthi "Nanti kita cerita tentang hari ini")
+  - [Nulis](/tools/nulis)
+  - [Pisah satuan](/tools/pisah-satuan)
 - Opini
   - [Dark mode](/opini/dark-mode)
   - [Hacker merusak?](/opini/hacker-merusak)
