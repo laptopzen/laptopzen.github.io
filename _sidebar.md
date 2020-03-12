@@ -28,6 +28,8 @@
   - [Dark mode](/opini/dark-mode)
   - [Hacker merusak?](/opini/hacker-merusak)
   - [Mengapa membuat aplikasi?](/opini/mengapa-aplikasi)
+- Trivia 
+  - [Grup Telegram](/trivia/grup-telegram)
 - Konten lainnya
   - Review buku
     - [Cara kerja](/buku/cara-kerja)
