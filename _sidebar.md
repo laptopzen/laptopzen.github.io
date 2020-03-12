@@ -10,6 +10,8 @@
     - [Pug](/skeleton/pug)
   - Style
     - [Stylus](/style/stylus)
+- Tools 
+  - [Kalkulator Caraka](/tools/kalkulator-caraka)
 - Opini
   - [Dark mode](/opini/dark-mode)
   - [Hacker merusak?](/opini/hacker-merusak)
