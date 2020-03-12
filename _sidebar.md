@@ -6,6 +6,8 @@
     - [jQuery](/behavior/jquery)
   - Framework
     - [Docsify](/framework/docsify)
+  - Jaringan 
+    - [Custom domain](/jaringan/custom-domain-github "Custom domain untuk github pages")
   - Skeleton
     - [HTML](/skeleton/html)
     - [Pug](/skeleton/pug)
