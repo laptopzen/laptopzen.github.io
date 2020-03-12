@@ -16,6 +16,7 @@
     - [Stylus](/style/stylus)
 - Tools 
   - [Embed Youtube](/tools/embed)
+  - [Excel markdown](/tools/excel-markdown)
   - [Kalkulator Caraka](/tools/kalkulator-caraka)
   - [Kontur](/tools/kontur)
   - [Kontur reverse](/tools/kontur-reverse)
